@@ -18,6 +18,17 @@ header{
     background-color: #8bc4b7;
     color: #ececec;
     padding: 15px;
+    /* text-align: center; */
+}
+
+header a{
+    text-decoration: none;
+    color: #ececec;
+    font-size: 22px;
+}
+
+header a i{
+    margin: 10px;
 }
 
 .main h1{
