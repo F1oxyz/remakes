@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;600;700;800&display=swap');
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 236, 224);
+    min-width: 300px;
+}
+
+header{
+    background-color: #8bc4b7;
+    color: #ececec;
+    padding: 15px;
+}
+
+.main h1{
+    font-family:'Delicious Handrawn', cursive;
+    text-align: center;
+    margin: 5%;
+}
+
+.remake-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remake1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #1e1e1e;
+    color: #ececec;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.remake1 a{
+    text-decoration: none;
+    background-color: #ececec;
+    padding: 5px 10px;
+    color: #1e1e1e;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+
+.remake1 a:hover{
+    text-decoration: none;
+    background-color: #83a8a8;
+    padding: 5px 10px;
+    color: #1e1e1e;
+    border-radius: 10px;
+}
+
+
+
+/* ___________________________________________ */
+/*                  footer                     */
+/* ___________________________________________ */
+
+footer{
+    width: 100%;
+    margin-top: 30%;
+    padding: 50px 30px;
+    background-color: #8bc4b7;
+    color: #f8f5f5;
+}
+
+.conteiner-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    cursor:default;
+}
+
+.box-footer h2{
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.box-footer a{
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.box-footer a:hover{
+    opacity: 0.8;
+}
+.box-footer a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.box-copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.box-copyright p{
+    margin-top: 20px;
+
+}
+
+.box-copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
