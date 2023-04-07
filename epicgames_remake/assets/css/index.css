@@ -37,6 +37,11 @@ header{
 .izq{
     display: flex;
     margin: 10px;
+    /* gap: 10px; */
+}
+
+.izq a img{
+    margin-right: 20px;
 }
 
 .drc{
@@ -70,7 +75,7 @@ header{
 .list-menu{
     display: flex;
     list-style-type: none;
-    gap: 20px;
+    gap: 30px;
 }
 
 .list-menu a{
